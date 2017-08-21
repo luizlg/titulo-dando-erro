@@ -1,0 +1,119 @@
+/* HEADER IMAGEM É MENU*/
+.header{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+    margin: auto;
+}
+/* SECTION MENU */
+.header-menu{
+	text-align: center;
+}
+
+.header-menu ul li{
+	display: inline-block;
+	margin-left: 25px
+	margin-top:20px;
+}
+
+.header-menu ul li a{
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+/* HEADER HOVER */
+.header-menu ul li a:hover{
+	color: red;
+}
+
+/* BANNER */
+.banner{
+	background: url(http://escgetsemani.pe.hu/1%ba%20teste/img/slide/slide01.jpg) no-repeat center;
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	text-align: center;
+	color: #fefefe;
+	padding: 50px;
+	margin-top: 150px;
+}
+
+.banner p{
+	content: "";
+}
+
+/* ICONES */
+.icones{
+	background-color: #101314;
+}
+
+.icones img{
+	width: 50px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.icones p{
+    text-align:left;
+	color: #fefefe;
+}
+
+
+/* BOTÕES E CORES*/
+.btn{
+  border: 3px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+/* BOTÃO PARA CARTÃO */
+/* Cartões */
+.card{
+	padding: 100px 0; 
+}
+
+.card h1{
+	text-align: center;
+	font-weight: bold;
+}
+
+.card h1:before, .card h1:after{
+ content: "";
+ display: block;
+ width: 300px;
+ height: 4px;
+ background: #000;
+ margin: 20px auto;
+}
+/* ESTILIZAÇÃO DOS CARTÕES */
+.cards h3, .cards p{
+ text-align: center;
+}
+
+.cards{
+ padding: 120px 0;
+}
+
+.cards a{margin-left: 130px;}
+/* Informações */
+.info{
+	padding: 60px 0;
+	text-align: center;
+	font-size: 16px;
+}
+
+/*Vantagens de estudar no getsêmani*/]
+
+.vits{
+	text-align: center;
+}
